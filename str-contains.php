@@ -2,9 +2,8 @@
 
 $nome = 'João Barbosa';
 
-/* essa função verifica espera dois parâmetros: uma variável e uma string,
-logo, ela verifica se na variável $nome contém a string 'Barbosa', ela retorna
-um valor booleano. */
+/* essa função verifica espera dois parâmetros onde ela verifica se na variável 
+$nome contém a string 'Barbosa', ela retorna um valor booleano. */
 
 (str_contains($nome, 'Barbosa'));
 
