@@ -1,5 +1,6 @@
 <?php
 
+$nome = 'Joao Pedro';
 $email = 'joaopedro@gmail.com';
 
 $posicaodoArroba = strpos($email, '@');
@@ -14,5 +15,14 @@ echo strtoupper($usuario) . PHP_EOL;
 // temos o contrário também, com o strtolower, porém essas funções só lidam com caracteres simples.
 
 echo strtolower($usuario) . PHP_EOL;
+
+// função para separar a string $nome em duas partes
+
+var_dump(explode(' ', $nome));
+
+list($nome, $sobrenome) = (explode(' ', $nome));
+
+echo 'Nome: ' . $nome . PHP_EOL;
+echo 'Sobrenome: ' . $sobrenome . PHP_EOL;
 
 ?>
